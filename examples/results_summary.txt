@@ -1,0 +1,20 @@
+SMART PLAYLIST AGENT - MODEL RESULTS
+====================================
+Tracks used: 50,000
+Features: danceability, energy, valence, acousticness, instrumentalness, speechiness, tempo, loudness, liveness
+Model: K-Means (K=4, n_init=20, random_state=42)
+Preprocessing: StandardScaler
+Silhouette score (2,500-track sample): 0.202
+PCA variance explained by first two components: 53.4%
+
+Cluster sizes:
+  Cluster 0: 22,344 tracks
+  Cluster 1: 7,695 tracks
+  Cluster 2: 13,416 tracks
+  Cluster 3: 6,545 tracks
+
+Mode-to-cluster decisions:
+  Focus / Study: Cluster 1
+  Workout: Cluster 2
+  Feel-Good: Cluster 0
+  Rhythm / Urban: Cluster 3
